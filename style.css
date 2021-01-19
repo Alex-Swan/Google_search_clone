@@ -1,0 +1,32 @@
+
+.top-navbar {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+
+.top-navbar li {
+        float: left;
+        margin: 10px;
+        list-style-type: none;
+    }
+
+.bottom-navbar {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.bottom-navbar li {
+    float: left;
+    margin: 10px;
+    list-style-type: none;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
