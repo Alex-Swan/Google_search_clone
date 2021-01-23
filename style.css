@@ -1,3 +1,20 @@
+* {
+    font-family: arial,sans-serif;
+    text-decoration: none;
+}
+
+ul a {
+    opacity: 0.75;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #000;
+}
+
 /* Top Navbar */
 .top-navbar {
     margin: 0;
@@ -9,16 +26,10 @@
         float: left;
         margin: 10px;
         list-style-type: none;
+        font-size: 13px;
     }
     
 
-ul a {
-    text-decoration: none;
-}
-
-ul a:hover {
-    text-decoration: underline;
-}
 
 
 /* main page */
@@ -36,10 +47,6 @@ ul a:hover {
     padding: 10px;
 }
 
-.search-box {
-
-    
-}
 
 .search-buttons {
 padding: 30px 10px
@@ -55,6 +62,8 @@ padding: 30px 10px
     padding: 0;
     overflow: hidden;
     background-color: #DADCE0;
+    font-size: 15px;
+    border-top: #000;
 }
 
 .bottom-navbar li {
