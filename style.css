@@ -1,4 +1,4 @@
-
+/* Top Navbar */
 .top-navbar {
     margin: 0;
     padding: 0;
@@ -10,7 +10,46 @@
         margin: 10px;
         list-style-type: none;
     }
+    
 
+ul a {
+    text-decoration: none;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+
+/* main page */
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+#google-logo {
+    height: 72px;
+    width: auto;
+    padding: 10px;
+}
+
+.search-box {
+
+    
+}
+
+.search-buttons {
+padding: 30px 10px
+}
+
+
+
+
+
+/* Bottom Navbar */
 .bottom-navbar {
     margin: 0;
     padding: 0;
@@ -31,10 +70,5 @@
     width: 100%;
     text-align: center;
 }
-ul a {
-    text-decoration: none;
-}
 
-ul a:hover {
-    text-decoration: underline;
-}
+
