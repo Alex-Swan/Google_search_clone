@@ -63,21 +63,26 @@ padding: 30px 10px
     overflow: hidden;
     background-color: #DADCE0;
     font-size: 15px;
-    border-top: #000;
-}
-
-.bottom-navbar li {
-    float: left;
-    margin: 15px 30px;
-    list-style-type: none;
-}
-
-#footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: center;
+    text-align: center; 
+     border-top: 1px solid rgba(0,0,0,.20);
+}
+
+.bottom-navbar li {
+    box-sizing: border-box;
+    float: left;
+    padding: 1rem 1.5rem;
+    list-style-type: none;
+  
+}
+
+#middle-carbon {
+    position: relative;
+    left: 115px;
+
 }
 
 
